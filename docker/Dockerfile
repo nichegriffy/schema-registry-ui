@@ -25,5 +25,5 @@ ADD Caddyfile /caddy/Caddyfile.template
 ADD run.sh /
 RUN chmod +x /run.sh
 
-EXPOSE 8000
+EXPOSE 7000
 ENTRYPOINT ["/run.sh"]
